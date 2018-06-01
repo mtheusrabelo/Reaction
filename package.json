@@ -1,0 +1,71 @@
+{
+  "name": "reaction",
+  "version": "0.1.0",
+  "description": "Reaction",
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "web:start": "webpack-dev-server --open --config webpack.dev.js",
+    "web:build": "webpack --config webpack.prod.js",
+    "native:start": "react-native-scripts start",
+    "native:android": "react-native-scripts android",
+    "native:ios": "react-native-scripts ios",
+    "lint": "eslint src/**/*.js",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusrabelo/reaction.git"
+  },
+  "keywords": [
+    "react",
+    "react-native"
+  ],
+  "author": "Matheus Freire Rabelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheusrabelo/reaction/issues"
+  },
+  "homepage": "https://github.com/matheusrabelo/reaction#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-native": "^4.0.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "cssnano": "^3.10.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "i18next": "^11.3.2",
+    "i18next-browser-languagedetector": "^2.2.0",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.5",
+    "postcss-preset-env": "^5.1.0",
+    "prop-types": "^15.6.1",
+    "react-dom": "^16.4.0",
+    "react-i18next": "^7.6.1",
+    "react-native-scripts": "^1.14.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2",
+    "workbox-webpack-plugin": "^3.2.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "expo": "^27.0.2",
+    "react": "^16.4.0",
+    "react-native": "^0.55.4"
+  }
+}
