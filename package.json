@@ -14,18 +14,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matheusrabelo/reaction.git"
+    "url": "git+https://github.com/mtheusrabelo/reaction.git"
   },
   "keywords": [
     "react",
     "react-native"
   ],
-  "author": "Matheus Freire Rabelo",
+  "author": "Matheus Rabelo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matheusrabelo/reaction/issues"
+    "url": "https://github.com/mtheusrabelo/reaction/issues"
   },
-  "homepage": "https://github.com/matheusrabelo/reaction#readme",
+  "homepage": "https://github.com/mtheusrabelo/reaction#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.3",
