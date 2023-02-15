@@ -9,6 +9,3 @@ Modern example app for the Web, Android and iOS. With React and React Native.
 
 ## License
 MIT
-
-## Author
-Matheus Freire Rabelo
